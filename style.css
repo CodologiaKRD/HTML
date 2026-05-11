@@ -1,0 +1,21 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.left-column{
+    flex: 1;
+    background-color: #948484;
+    position: relative;
+}
+.right-column{
+    flex: 1;
+    background-color: #647e61;
+    position: relative;
+}
